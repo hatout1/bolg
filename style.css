@@ -5,9 +5,10 @@
 .first {
   display: flex;
   flex-wrap: wrap;
-  border-style: ridge;
   padding: 5px;
   text-align: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
 }
 
 .first-1 {
@@ -63,18 +64,14 @@ img {
   display: flex;
   flex-direction: column;
 }
-.third1and2 {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
-}
+.third1and2,
 .third3and4 {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
 }
+
 #imageThird1 {
   flex: 1;
   align-self: flex-end;
@@ -98,94 +95,66 @@ img {
 
 #img1-1 {
   border-radius: 50% 50% 50% 50%;
+  transition: width 2s;
 }
 #img1-2 {
   border-radius: 50% 50% 50% 50%;
+  transition: width 2s;
 }
 #img1-3 {
   border-radius: 50% 50% 50% 50%;
+  transition: width 2s;
 }
 #img1-4 {
   border-radius: 50% 50% 50% 50%;
+  transition: width 2s;
 }
 
-#img2-1 {
-  border-radius: 5% 5% 5% 5%;
+#img1-1:hover,
+#img1-2:hover,
+#img1-3:hover,
+#img1-4:hover {
+  border-radius: 10% 10% 10% 10%;
 }
 
-#img2-2 {
-  border-radius: 5% 5% 5% 5%;
-}
-#img2-3 {
-  border-radius: 5% 5% 5% 5%;
-}
+#img2-1,
+#img2-2,
+#img2-3,
 #img2-4 {
   border-radius: 5% 5% 5% 5%;
 }
 
-#img3-1 {
-  border-radius: 0% 50% 0% 50%;
-}
-#img3-2 {
-  border-radius: 50% 0% 50% 0%;
-}
-#img3-3 {
-  border-radius: 50% 0% 50% 0%;
-}
+#img3-1,
 #img3-4 {
   border-radius: 0% 50% 0% 50%;
 }
+#img3-2,
+#img3-3 {
+  border-radius: 50% 0% 50% 0%;
+}
 
-#img3-1:hover {
-  border-radius: 2% 2% 2% 2%;
-}
-#img3-2:hover {
-  border-radius: 2% 2% 2% 2%;
-}
-#img3-3:hover {
-  border-radius: 2% 2% 2% 2%;
-}
+#img3-1:hover,
+#img3-2:hover,
+#img3-3:hover,
 #img3-4:hover {
   border-radius: 2% 2% 2% 2%;
 }
 
 @media only screen and (max-width: 600px) {
-  #img1-1 {
-    border-radius: 50% 50% 0% 0%;
-  }
-  #img1-2 {
-    border-radius: 0% 0% 50% 50%;
-  }
-  #img1-3 {
-    border-radius: 50% 50% 0% 0%;
-  }
-  #img1-4 {
-    border-radius: 0% 0% 50% 50%;
-  }
-
-  #img2-1 {
-    border-radius: 50% 50% 0% 0%;
-  }
-  #img2-2 {
-    border-radius: 0% 0% 50% 50%;
-  }
-  #img2-3 {
-    border-radius: 50% 50% 0% 0%;
-  }
-  #img2-4 {
-    border-radius: 0% 0% 50% 50%;
-  }
-
-  #img3-1 {
-    border-radius: 50% 50% 0% 0%;
-  }
-  #img3-2 {
-    border-radius: 0% 0% 50% 50%;
-  }
+  #img1-1,
+  #img1-3,
+  #img2-1,
+  #img2-3,
+  #img3-1,
   #img3-3 {
     border-radius: 50% 50% 0% 0%;
   }
-  #img3-4 {
+  #img1-2,
+  #img3-4,
+  #img1-4,
+  #img2-2,
+  #img2-4,
+  #img3-2 {
     border-radius: 0% 0% 50% 50%;
   }
 }
