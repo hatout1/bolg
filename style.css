@@ -96,6 +96,19 @@ img {
   margin-left: 1px;
 }
 
+#img1-1 {
+  border-radius: 50% 50% 50% 50%;
+}
+#img1-2 {
+  border-radius: 50% 50% 50% 50%;
+}
+#img1-3 {
+  border-radius: 50% 50% 50% 50%;
+}
+#img1-4 {
+  border-radius: 50% 50% 50% 50%;
+}
+
 #img2-1 {
   border-radius: 5% 5% 5% 5%;
 }
@@ -123,30 +136,56 @@ img {
   border-radius: 0% 50% 0% 50%;
 }
 
+#img3-1:hover {
+  border-radius: 2% 2% 2% 2%;
+}
+#img3-2:hover {
+  border-radius: 2% 2% 2% 2%;
+}
+#img3-3:hover {
+  border-radius: 2% 2% 2% 2%;
+}
+#img3-4:hover {
+  border-radius: 2% 2% 2% 2%;
+}
+
 @media only screen and (max-width: 600px) {
+  #img1-1 {
+    border-radius: 50% 50% 0% 0%;
+  }
+  #img1-2 {
+    border-radius: 0% 0% 50% 50%;
+  }
+  #img1-3 {
+    border-radius: 50% 50% 0% 0%;
+  }
+  #img1-4 {
+    border-radius: 0% 0% 50% 50%;
+  }
+
   #img2-1 {
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 0% 0%;
   }
   #img2-2 {
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 0% 0% 50% 50%;
   }
   #img2-3 {
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 0% 0%;
   }
   #img2-4 {
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 0% 0% 50% 50%;
   }
 
   #img3-1 {
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 0% 0%;
   }
   #img3-2 {
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 0% 0% 50% 50%;
   }
   #img3-3 {
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 0% 0%;
   }
   #img3-4 {
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 0% 0% 50% 50%;
   }
 }
