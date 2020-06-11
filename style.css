@@ -23,11 +23,8 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.second,
-.third {
+.second {
   flex: 1;
-  border: steelblue;
-  border-style: ridge;
   display: flex;
   text-align: center;
   flex-wrap: wrap;
@@ -64,29 +61,92 @@ img {
   flex: 1;
   text-align: center;
   display: flex;
+  flex-direction: column;
+}
+.third1and2 {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.third3and4 {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
 }
 #imageThird1 {
   flex: 1;
-  align-self: flex-start;
-  text-align: center;
+  align-self: flex-end;
+  margin-right: 1px;
 }
 #imageThird2 {
   flex: 1;
-  align-self: center;
+  align-self: flex-end;
+  margin-left: 1px;
 }
 #imageThird3 {
   flex: 1;
-  align-self: flex-end;
+  align-self: flex-start;
+  margin-right: 1px;
 }
+#imageThird4 {
+  flex: 1;
+  align-self: flex-start;
+  margin-left: 1px;
+}
+
 #img2-1 {
-  border-radius: 50% 50% 0% 0%;
+  border-radius: 5% 5% 5% 5%;
 }
+
 #img2-2 {
-  border-radius: 50% 0% 0% 50%;
+  border-radius: 5% 5% 5% 5%;
 }
 #img2-3 {
-  border-radius: 0% 50% 50% 0%;
+  border-radius: 5% 5% 5% 5%;
 }
 #img2-4 {
-  border-radius: 0% 0% 50% 50%;
+  border-radius: 5% 5% 5% 5%;
+}
+
+#img3-1 {
+  border-radius: 0% 50% 0% 50%;
+}
+#img3-2 {
+  border-radius: 50% 0% 50% 0%;
+}
+#img3-3 {
+  border-radius: 50% 0% 50% 0%;
+}
+#img3-4 {
+  border-radius: 0% 50% 0% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #img2-1 {
+    border-radius: 50% 50% 50% 50%;
+  }
+  #img2-2 {
+    border-radius: 5% 5% 5% 5%;
+  }
+  #img2-3 {
+    border-radius: 50% 50% 50% 50%;
+  }
+  #img2-4 {
+    border-radius: 5% 5% 5% 5%;
+  }
+
+  #img3-1 {
+    border-radius: 50% 50% 50% 50%;
+  }
+  #img3-2 {
+    border-radius: 5% 5% 5% 5%;
+  }
+  #img3-3 {
+    border-radius: 50% 50% 50% 50%;
+  }
+  #img3-4 {
+    border-radius: 5% 5% 5% 5%;
+  }
 }
